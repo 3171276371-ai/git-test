@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="SpringCloud_Service_Provider" />
+        <module name="SpringCloud_Eureka" />
+        <module name="SpringCloud_Service_Consumer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SpringCloud_Eureka" target="1.8" />
+      <module name="SpringCloud_Service_Consumer" target="1.8" />
+      <module name="SpringCloud_Service_Provider" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SpringCloud_Eureka" options="-parameters" />
+      <module name="SpringCloud_Service_Consumer" options="-parameters" />
+      <module name="SpringCloud_Service_Provider" options="-parameters" />
+    </option>
+  </component>
+</project>
