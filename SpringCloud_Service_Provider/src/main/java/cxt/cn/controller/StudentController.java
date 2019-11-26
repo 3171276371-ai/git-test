@@ -20,7 +20,8 @@ public class StudentController {
     @Autowired
     private StudentService studentService;
     @GetMapping("{id}")
-    public Student findById(@PathVariable("id")String id){
+    public Student findById(@PathVariable("id")String id) throws InterruptedException {
+//        Thread.sleep(60000);
         return studentService.findById(id);
     }
 }

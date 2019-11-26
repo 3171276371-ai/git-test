@@ -8,7 +8,7 @@ spring:
     username: root
     password: root
   application:
-    name: SpringCloud_Service_Provider
+    name: SpringCloudServiceProvider
 eureka:
   client:
     service-url:
