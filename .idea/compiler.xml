@@ -9,12 +9,14 @@
         <module name="SpringCloud_Service_Provider" />
         <module name="SpringCloud_Eureka" />
         <module name="SpringCloud_Service_Consumer" />
+        <module name="SpringCloud_Zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="SpringCloud_Eureka" target="1.8" />
       <module name="SpringCloud_Service_Consumer" target="1.8" />
       <module name="SpringCloud_Service_Provider" target="1.8" />
+      <module name="SpringCloud_Zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -22,6 +24,7 @@
       <module name="SpringCloud_Eureka" options="-parameters" />
       <module name="SpringCloud_Service_Consumer" options="-parameters" />
       <module name="SpringCloud_Service_Provider" options="-parameters" />
+      <module name="SpringCloud_Zuul" options="-parameters" />
     </option>
   </component>
 </project>

@@ -21,7 +21,7 @@ public class StudentController {
     private StudentService studentService;
     @GetMapping("{id}")
     public Student findById(@PathVariable("id")String id) throws InterruptedException {
-//        Thread.sleep(60000);
+//        Thread.sleep(7000);
         return studentService.findById(id);
     }
 }

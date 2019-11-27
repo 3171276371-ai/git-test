@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @Description:
  * @CreateTime: 2019/11/26 21:18
  */
-@FeignClient("SpringCloudServiceProvider")
-public interface FeginClientDemo {
+@FeignClient(value = "SpringCloudServiceProvider",fallback = StudentClientFallBack.class)
+public interface FeginClientDemo {//http://SpringCloudServiceProvider/student/id
     @GetMapping("student/{id}")
     public Student findById(@PathVariable("id")String id) throws InterruptedException;
 }

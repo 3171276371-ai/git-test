@@ -6,6 +6,7 @@
         <option value="$PROJECT_DIR$/SpringCloud_Service_Provider/pom.xml" />
         <option value="$PROJECT_DIR$/SpringCloud_Service_Consumer/pom.xml" />
         <option value="$PROJECT_DIR$/SpringCloud_Eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloud_Zuul/pom.xml" />
       </list>
     </option>
   </component>
